@@ -75,10 +75,5 @@ const aboutClose = document.querySelector('#aboutClose');
 aboutClose.onclick = () => about.classList.remove('active');
 
 const blurBtn = document.querySelector('.blur-btn');
-blurBtn.addEventListener('click', e => {
-    container.classList.toggle('not-blur');
-    if (blurBtn.innerHTML == 'off') {
-        blurBtn.textContent = 'on'
-    }else blurBtn.textContent = 'off'
-});
+blurBtn.addEventListener('click', () => container.classList.toggle('not-blur'));
 
