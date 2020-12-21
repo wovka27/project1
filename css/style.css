@@ -405,7 +405,7 @@ button:-moz-focusring,
   height: 300px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  transform: translateX(150%);
+  transform: translateX(200%);
   transition: all .2s;
   padding-bottom: 10px;
 }
